@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/CustomWidgets/AppBar/appbar.dart';
 import 'package:provider/provider.dart';
 
+import '../../CustomWidgets/AppBar/appbar.dart';
 import '../../Themes/themeManager.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class SearchPage extends StatefulWidget {
+  const SearchPage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<SearchPage> createState() => _SearchPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _SearchPageState extends State<SearchPage> {
   @override
   Widget build(BuildContext context) {
     final themeManager = Provider.of<ThemeManager>(context);
@@ -25,10 +25,10 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
-      body: Center(
+      body: Container(
         child: Text(
-          'Welcome to News Reader App',
-          style: Theme.of(context).textTheme.bodyLarge,
+          'Search',
+          style: TextStyle(color: Colors.white),
         ),
       ),
     );

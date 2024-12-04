@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newsapp/MainTab/maintabpage.dart';
 import 'package:provider/provider.dart';
 
 import 'Home/Pages/HomePage.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
             theme: themeManager.lightTheme,
             darkTheme: themeManager.darkTheme,
             themeMode: themeManager.themeMode,
-            home: HomePage(),
+            home: MainTabPage(),
           );
         },
       ),
