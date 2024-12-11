@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/MainTab/maintabpage.dart';
+import 'package:newsapp/Login/welcomePage.dart';
 import 'package:provider/provider.dart';
-
-import 'Home/Pages/HomePage.dart';
 import 'Themes/themeManager.dart';
 
 void main() {
@@ -21,7 +19,7 @@ class MyApp extends StatelessWidget {
             theme: themeManager.lightTheme,
             darkTheme: themeManager.darkTheme,
             themeMode: themeManager.themeMode,
-            home: MainTabPage(),
+            home: WelcomePage(),
           );
         },
       ),

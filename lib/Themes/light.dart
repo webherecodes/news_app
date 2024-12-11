@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class LightTheme {
   static ThemeData get theme {
     return ThemeData(
+      fontFamily: 'JosefinSans',
       brightness: Brightness.light,
       primaryColor: Color.fromARGB(255, 165, 28, 228), // Light beige
       scaffoldBackgroundColor: const Color.fromARGB(255, 238, 238, 238),

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class DarkTheme {
   static ThemeData get theme {
     return ThemeData(
+      fontFamily: 'JosefinSans',
       brightness: Brightness.dark,
       primaryColor: Color.fromARGB(255, 203, 1, 238), // Accent color
       appBarTheme: AppBarTheme(
