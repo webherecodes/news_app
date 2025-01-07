@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/MainTab/maintabpage.dart';
-import 'package:newsapp/Themes/colors.dart';
+import 'package:newsapp/features/MainTab/maintabpage.dart';
+import 'package:newsapp/config/theme/Themes/colors.dart';
 
-import '../CustomWidgets/Textfields/round_btn.dart';
+import '../../CustomWidgets/Textfields/round_btn.dart';
 
 class OnBoarding extends StatefulWidget {
   const OnBoarding({super.key});

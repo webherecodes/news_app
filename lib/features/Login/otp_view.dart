@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:otp_pin_field/otp_pin_field.dart';
 
-import '../CustomWidgets/Textfields/round_btn.dart';
+import '../../CustomWidgets/Textfields/round_btn.dart';
 
 class OtpView extends StatefulWidget {
   const OtpView({super.key});

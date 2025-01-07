@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/Themes/colors.dart';
+import 'package:newsapp/config/theme/Themes/colors.dart';
 
 enum RoundButtonType { bgPrimary, textPrimary }
 

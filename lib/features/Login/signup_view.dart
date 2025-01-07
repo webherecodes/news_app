@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/Login/loginPage.dart';
+import 'package:newsapp/features/Login/loginPage.dart';
 
-import '../CustomWidgets/Textfields/round_btn.dart';
-import '../CustomWidgets/Textfields/round_textfield.dart';
-import '../Themes/colors.dart';
+import '../../CustomWidgets/Textfields/round_btn.dart';
+import '../../CustomWidgets/Textfields/round_textfield.dart';
+import '../../config/theme/Themes/colors.dart';
 import 'otp_view.dart';
 
 class SignupView extends StatefulWidget {

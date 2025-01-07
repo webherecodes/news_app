@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../Home/Pages/HomePage.dart';
+import '../../features/Home/presentation/Pages/HomePage.dart';
 import '../Buttons/commentButton.dart';
 import '../Buttons/menuButton.dart';
 import '../Buttons/shareButton.dart';

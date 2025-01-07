@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import '../CustomWidgets/Textfields/round_btn.dart';
-import '../CustomWidgets/Textfields/round_icon_btn.dart';
-import '../CustomWidgets/Textfields/round_textfield.dart';
+import '../../CustomWidgets/Textfields/round_btn.dart';
+import '../../CustomWidgets/Textfields/round_icon_btn.dart';
+import '../../CustomWidgets/Textfields/round_textfield.dart';
 import '../Onboarding/on_boarding.dart';
-import '../Themes/colors.dart';
+import '../../config/theme/Themes/colors.dart';
 import 'reset_password_view.dart';
 import 'signup_view.dart';
 

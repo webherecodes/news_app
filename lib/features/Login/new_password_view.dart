@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/Themes/colors.dart';
+import 'package:newsapp/config/theme/Themes/colors.dart';
 
-import '../CustomWidgets/Textfields/round_btn.dart';
-import '../CustomWidgets/Textfields/round_textfield.dart';
+import '../../CustomWidgets/Textfields/round_btn.dart';
+import '../../CustomWidgets/Textfields/round_textfield.dart';
 
 class NewPasswordView extends StatefulWidget {
   const NewPasswordView({super.key});

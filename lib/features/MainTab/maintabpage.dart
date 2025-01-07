@@ -1,13 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:newsapp/Home/Pages/HomePage.dart';
-import 'package:newsapp/Search/Pages/SearchPage.dart';
+import 'package:newsapp/features/Home/presentation/Pages/HomePage.dart';
+import 'package:newsapp/features/Pages/SearchPage.dart';
 import 'package:provider/provider.dart';
 
-import '../CustomWidgets/AppBar/appbar.dart';
-import '../CustomWidgets/Buttons/tabbutton.dart';
-import '../Themes/themeManager.dart';
+import '../../CustomWidgets/AppBar/appbar.dart';
+import '../../CustomWidgets/Buttons/tabbutton.dart';
+import '../../config/theme/Themes/themeManager.dart';
 
 class MainTabPage extends StatefulWidget {
   const MainTabPage({super.key});

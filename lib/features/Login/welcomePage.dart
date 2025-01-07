@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/Login/loginPage.dart';
-import 'package:newsapp/Themes/colors.dart';
-import '../CustomWidgets/Textfields/round_btn.dart';
+import 'package:newsapp/features/Login/loginPage.dart';
+import 'package:newsapp/config/theme/Themes/colors.dart';
+import '../../CustomWidgets/Textfields/round_btn.dart';
 import 'signup_view.dart';
 
 class WelcomePage extends StatefulWidget {
